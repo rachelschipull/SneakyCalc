@@ -1,6 +1,8 @@
 # Calculator
 
-Simple calculator for class
+Simple calculator for basic calculation functions.
+
+Link to site: [Sneaky Calc](https://sneakycalc.netlify.app/)
 
 ## Features
 
@@ -8,11 +10,11 @@ Includes all calculation functions, equals, and all clear button.
 
 Added the hover state for the buttons.
 
-Includes a secret code button for interested viewers.
+Includes a secret code for interested viewers.
 
 ## Design template
 
-Used the design template provided by Leon Noel and followed the class with Mayanwolfe to complete the project.
+Used the design template provided by Leon Noel and followed the calculator stream with Mayanwolfe to complete the project.
 
 ## Issues to address
 

@@ -31,7 +31,9 @@ const calculator = {
             break;
             case '.' :
                 if (this.displayText == 0){
-                    this.addText('0.')
+                    this.addText('0.');
+                }else if (this.displayText.includes('.')){
+                   this.addText('');
                 } else {
                     this.addText(value)
                 }

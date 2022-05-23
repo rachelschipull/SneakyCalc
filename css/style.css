@@ -1,83 +1,93 @@
+// This is Brandon testing stuff out
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .calculator {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    background-color: black;
-    padding: 40px;
-    padding-top: 75px;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: black;
+  padding: 40px;
+  padding-top: 75px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .calculator-screen {
-    width: 100%;
-    font-size: 5rem;
-    height: 80px;
-    border: none;
-    background-color: slategray;
-    color: black;
-    text-align: right;
-    padding-right: 10px;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: 100%;
+  font-size: 5rem;
+  height: 80px;
+  border: none;
+  background-color: slategray;
+  color: black;
+  text-align: right;
+  padding-right: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 .calculator-buttons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 15px;
-    padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+  padding-bottom: 5px;
 }
 
 button {
-    height: 60px;
-    background-color: white;
-    border: none;
-    border-radius: 30px;
-    font-size: 4rem;
-    font-weight: bold;
-    color: black;
-    margin: 7px;
-    padding: 5px;
-    flex: 1 0 18%;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  margin: 7px;
+  padding: 5px;
+  flex: 1 0 18%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 button:hover {
-    background-color: lightblue;
-    transition: 0.7s;
+  background-color: lightblue;
+  transition: 0.7s;
 }
 
 .all-clear {
-    background-color: forestgreen;
-    color: white;
-    font-size: 3rem;
+  background-color: forestgreen;
+  color: white;
+  font-size: 3rem;
 }
 
 .cheat {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    text-decoration: none;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-decoration: none;
+  color: white;
 }
 
 .cheat > a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
 }
